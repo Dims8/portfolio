@@ -75,14 +75,14 @@ const projects: Project[] = [
     name: '8bit Language Game',
     href: null,
     role: 'AI Product · In development',
-    desc: 'Retro 8-bit language learning game set in a hand-built pixel-art world. An AI-driven adaptive engine tunes vocabulary and grammar difficulty in real time as you explore the map and talk to characters.',
+    desc: 'Retro 8-bit language learning game set in a hand-built pixel-art Barcelona. About 80% complete, with working AI-driven NPC conversations and a library full of books you can read and translate on the fly. An adaptive engine tunes vocabulary and grammar difficulty in real time as you explore.',
     tags: ['Python', 'JavaScript', 'AI', 'Pixel Art'],
     year: '2026',
     featured: false,
-    image: '/8bit-map.jpeg',
-    imageAlt: 'Pixel-art city map — cathedral, cinema, plaza and harbour',
+    image: '/8bit-map.webp',
+    imageAlt: 'Pixel-art Barcelona map with station, farmacia, cinema, hotel, La Boqueria, cathedral and harbour',
     showcase: true,
-    badge: 'Work in progress',
+    badge: '80% complete',
   },
   {
     id: '06',
@@ -451,7 +451,7 @@ export default function Home() {
             >
               PropLense
             </a>
-            . Currently studying Mechanical Engineering at Curtin University.
+            . Currently studying Software Engineering at Curtin University, after switching over from Mechanical Engineering.
           </p>
 
           {/* CTAs */}
